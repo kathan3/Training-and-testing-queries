@@ -208,3 +208,8 @@ SELECT ws_order_number AS k1,
     SUM(ws_web_page_sk), MIN(ws_web_page_sk), MAX(ws_web_page_sk)
 FROM web_sales
 GROUP BY ws_order_number, ws_item_sk, ws_warehouse_sk;
+
+Q32:
+SELECT c_custkey, SUM(c_nationkey)
+FROM customer
+GROUP BY c_custkey;
