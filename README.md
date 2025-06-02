@@ -1,2 +1,2 @@
 # Training-and-testing-queries
-Training and testing queries for GPU JOIN and GROUP BY operator.
+Training and testing queries for GPU Join and GroupBy operator.
